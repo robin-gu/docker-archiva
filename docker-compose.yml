@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+   archiva:
+     image: robingu/archiva
+     ports:
+       - 8888:8080
+     volumes:
+       - archiva:/apache-archiva
+     restart: always
+
+volumes:
+    archiva:
