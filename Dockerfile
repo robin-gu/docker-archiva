@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk
 
-ENV VERSION 2.2.4
+ENV VERSION 2.2.5
 
 RUN curl -sSLo /apache-archiva-$VERSION-bin.tar.gz https://archive.apache.org/dist/archiva/$VERSION/binaries/apache-archiva-$VERSION-bin.tar.gz \
   && tar --extract --ungzip --file apache-archiva-$VERSION-bin.tar.gz --directory / \
