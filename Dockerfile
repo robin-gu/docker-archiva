@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM eclipse-temurin:8-jdk-jammy
 
 ENV VERSION 2.2.9
 
